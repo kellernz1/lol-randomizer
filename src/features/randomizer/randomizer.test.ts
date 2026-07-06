@@ -5,11 +5,12 @@ describe("randomChallenge", () => {
   it("never puts Smite outside jungle", () => {
     for (let index = 0; index < 100; index += 1) {
       const challenge = randomChallenge(`seed-${index}`);
+      const summonerNames = challenge.summoners.map((spell) => spell.name);
 
       if (challenge.role === "Jungle") {
-        expect(challenge.summoners).toContain("Smite");
+        expect(summonerNames).toContain("Smite");
       } else {
-        expect(challenge.summoners).not.toContain("Smite");
+        expect(summonerNames).not.toContain("Smite");
       }
     }
   });
