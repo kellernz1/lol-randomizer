@@ -229,8 +229,8 @@ h1 {
 
 .item-grid {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
 }
 
 .spell-row,
@@ -244,12 +244,28 @@ h1 {
   min-width: 0;
 }
 
+.items-panel .asset-tile {
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr);
+  gap: 10px;
+  align-items: center;
+}
+
 .asset-tile img,
 .ban-tile img {
   aspect-ratio: 1;
   border: 1px solid #8d713a;
   border-radius: 5px;
   background: #070a0f;
+}
+
+.items-panel .asset-tile img {
+  width: 56px;
+  height: 56px;
+}
+
+.items-panel .asset-tile figcaption {
+  margin-top: 0;
 }
 
 .asset-tile figcaption,

@@ -22,4 +22,13 @@ describe("randomChallenge", () => {
       expect(challenge.champion.roles).toContain(challenge.role);
     }
   });
+
+  it("does not repeat items in the same roll", () => {
+    for (let index = 0; index < 100; index += 1) {
+      const challenge = randomChallenge(`seed-${index}`);
+      const itemIds = challenge.items.map((item) => item.id);
+
+      expect(new Set(itemIds).size).toBe(itemIds.length);
+    }
+  });
 });

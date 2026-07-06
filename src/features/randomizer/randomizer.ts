@@ -142,6 +142,19 @@ function pick<T>(items: T[], cursor: number) {
   return items[cursor % items.length];
 }
 
+function pickUnused<T extends { id: string }>(
+  items: T[],
+  cursor: number,
+  usedIds: Set<string>
+) {
+  const availableItems = items.filter((item) => !usedIds.has(item.id));
+  const selectedItem = pick(availableItems, cursor);
+
+  usedIds.add(selectedItem.id);
+
+  return selectedItem;
+}
+
 export function randomChallenge(seed: string): Challenge {
   const hash = hashSeed(seed);
   const role = pick(roles, hash);
@@ -183,13 +196,14 @@ export function randomChallenge(seed: string): Challenge {
   const corePool = itemPool.filter(
     (item) => item.slot !== "Start" && item.slot !== "Boots"
   );
+  const usedItemIds = new Set<string>();
   const items = [
-    pick(starterPool, hash >>> 9),
-    pick(bootsPool, hash >>> 11),
-    pick(corePool, hash >>> 13),
-    pick(corePool, hash >>> 15),
-    pick(corePool, hash >>> 17),
-    pick(corePool, hash >>> 19)
+    pickUnused(starterPool, hash >>> 9, usedItemIds),
+    pickUnused(bootsPool, hash >>> 11, usedItemIds),
+    pickUnused(corePool, hash >>> 13, usedItemIds),
+    pickUnused(corePool, hash >>> 15, usedItemIds),
+    pickUnused(corePool, hash >>> 17, usedItemIds),
+    pickUnused(corePool, hash >>> 19, usedItemIds)
   ];
   const banPool = champions.filter((candidate) => candidate.id !== champion.id);
 
