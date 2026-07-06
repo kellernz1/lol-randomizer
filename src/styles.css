@@ -1,0 +1,112 @@
+:root {
+  color: #f6f1df;
+  background: #080b12;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+button {
+  min-height: 44px;
+  border: 1px solid #c8aa6e;
+  border-radius: 8px;
+  padding: 0 18px;
+  color: #080b12;
+  background: #c8aa6e;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.shell {
+  width: min(1040px, calc(100% - 32px));
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 48px 0 24px;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 24px;
+  align-items: end;
+  padding: 32px 0;
+}
+
+.eyebrow,
+.label {
+  margin: 0 0 8px;
+  color: #c8aa6e;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1 {
+  max-width: 780px;
+  margin: 0;
+  font-size: clamp(2.75rem, 12vw, 7rem);
+  line-height: 0.92;
+  letter-spacing: 0;
+}
+
+.lede {
+  max-width: 680px;
+  color: #d9d4c6;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.challenge {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 12px;
+  margin: 32px 0;
+}
+
+.challenge > div {
+  min-height: 112px;
+  border: 1px solid #273143;
+  border-radius: 8px;
+  padding: 18px;
+  background: #111827;
+}
+
+.challenge strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 1.2rem;
+}
+
+footer {
+  border-top: 1px solid #273143;
+  padding-top: 20px;
+  color: #a6adbb;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 760px) {
+  .shell {
+    width: min(100% - 24px, 1040px);
+    padding-top: 28px;
+  }
+
+  .hero,
+  .challenge {
+    grid-template-columns: 1fr;
+  }
+}
