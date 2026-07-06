@@ -15,12 +15,22 @@ describe("randomChallenge", () => {
     }
   });
 
-  it("only picks champions valid for the selected role", () => {
-    for (let index = 0; index < 100; index += 1) {
-      const challenge = randomChallenge(`seed-${index}`);
+  it("rolls roles independently from champion lanes", () => {
+    const aatroxTop = randomChallenge("aatrox-top");
+    const roleResults = new Set(
+      Array.from({ length: 100 }, (_, index) =>
+        randomChallenge(`role-roll-${index}`, aatroxTop, {
+          champion: false,
+          role: true,
+          items: false,
+          summoners: true,
+          abilities: false,
+          ban: false
+        })
+      ).map((challenge) => challenge.role)
+    );
 
-      expect(challenge.champion.roles).toContain(challenge.role);
-    }
+    expect(roleResults.size).toBeGreaterThan(1);
   });
 
   it("does not repeat items in the same roll", () => {
@@ -50,7 +60,7 @@ describe("randomChallenge", () => {
     expect(nextChallenge.banChampion.id).toBe(initialChallenge.banChampion.id);
   });
 
-  it("keeps champion and role compatible on partial rerolls", () => {
+  it("keeps champion fixed while rerolling role", () => {
     for (let index = 0; index < 100; index += 1) {
       const initialChallenge = randomChallenge(`initial-${index}`);
       const nextChallenge = randomChallenge(`next-${index}`, initialChallenge, {
@@ -62,7 +72,7 @@ describe("randomChallenge", () => {
         ban: true
       });
 
-      expect(nextChallenge.champion.roles).toContain(nextChallenge.role);
+      expect(nextChallenge.champion.id).toBe(initialChallenge.champion.id);
     }
   });
 });

@@ -175,9 +175,7 @@ function pickUnused<T extends { id: string }>(
 
 function resolveRole(hash: number, previous?: Challenge, options = defaultRollOptions) {
   if (!previous || options.role) {
-    return previous && !options.champion
-      ? pick(previous.champion.roles, hash)
-      : pick(roles, hash);
+    return pick(roles, hash);
   }
 
   return previous.role;
@@ -185,19 +183,14 @@ function resolveRole(hash: number, previous?: Challenge, options = defaultRollOp
 
 function resolveChampion(
   hash: number,
-  role: Role,
   previous?: Challenge,
   options = defaultRollOptions
 ) {
-  if (previous && !options.champion && previous.champion.roles.includes(role)) {
+  if (previous && !options.champion) {
     return previous.champion;
   }
 
-  const championPool = champions.filter((champion) =>
-    champion.roles.includes(role)
-  );
-
-  return pick(championPool, hash >>> 3);
+  return pick(champions, hash >>> 3);
 }
 
 function resolveSummoners(
@@ -299,7 +292,7 @@ export function randomChallenge(
   const hash = hashSeed(seed);
   const role = resolveRole(hash, previous, options);
   const roleChanged = Boolean(previous && previous.role !== role);
-  const champion = resolveChampion(hash, role, previous, options);
+  const champion = resolveChampion(hash, previous, options);
   const championChanged = Boolean(previous && previous.champion.id !== champion.id);
   const summoners = resolveSummoners(hash, role, roleChanged, previous, options);
   const items = resolveItems(hash, role, roleChanged, previous, options);
