@@ -199,7 +199,7 @@ export function App() {
       </section>
 
       <footer>
-        Este projeto nao e afiliado, endossado ou patrocinado pela Riot Games.
+        Este projeto não é afiliado, endossado ou patrocinado pela Riot Games.
         League of Legends e Riot Games sao marcas registradas da Riot Games,
         Inc.
       </footer>
