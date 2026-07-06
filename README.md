@@ -19,7 +19,8 @@ Action `Deploy GitHub Pages` instala dependencias, roda testes, faz build e
 publica o conteudo de `dist/`.
 
 No GitHub, confirme em **Settings > Pages** que a fonte esta como
-**GitHub Actions**.
+**GitHub Actions**. Antes disso, o workflow ainda roda install, testes e build,
+mas pula o deploy para evitar falha falsa de configuracao.
 
 ## Aviso legal
 
