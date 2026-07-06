@@ -38,7 +38,25 @@ export type Challenge = {
   difficulty: 1 | 2 | 3 | 4 | 5;
 };
 
+export type RollOptions = {
+  champion: boolean;
+  role: boolean;
+  items: boolean;
+  summoners: boolean;
+  abilities: boolean;
+  ban: boolean;
+};
+
 export const DATA_DRAGON_VERSION = "16.13.1";
+
+export const defaultRollOptions: RollOptions = {
+  champion: true,
+  role: true,
+  items: true,
+  summoners: true,
+  abilities: true,
+  ban: true
+};
 
 const roles: Role[] = ["Top", "Jungle", "Mid", "ADC", "Support"];
 
@@ -155,13 +173,43 @@ function pickUnused<T extends { id: string }>(
   return selectedItem;
 }
 
-export function randomChallenge(seed: string): Challenge {
-  const hash = hashSeed(seed);
-  const role = pick(roles, hash);
+function resolveRole(hash: number, previous?: Challenge, options = defaultRollOptions) {
+  if (!previous || options.role) {
+    return previous && !options.champion
+      ? pick(previous.champion.roles, hash)
+      : pick(roles, hash);
+  }
+
+  return previous.role;
+}
+
+function resolveChampion(
+  hash: number,
+  role: Role,
+  previous?: Challenge,
+  options = defaultRollOptions
+) {
+  if (previous && !options.champion && previous.champion.roles.includes(role)) {
+    return previous.champion;
+  }
+
   const championPool = champions.filter((champion) =>
     champion.roles.includes(role)
   );
-  const champion = pick(championPool, hash >>> 3);
+
+  return pick(championPool, hash >>> 3);
+}
+
+function resolveSummoners(
+  hash: number,
+  role: Role,
+  roleChanged: boolean,
+  previous?: Challenge,
+  options = defaultRollOptions
+) {
+  if (previous && !options.summoners && !roleChanged) {
+    return previous.summoners;
+  }
 
   const flash = summonerSpells.find((spell) => spell.id === "flash")!;
   const smite = summonerSpells.find((spell) => spell.id === "smite")!;
@@ -169,16 +217,30 @@ export function randomChallenge(seed: string): Challenge {
     (spell) => spell.id !== "smite" && spell.id !== "flash"
   );
 
-  const summoners: [SummonerSpell, SummonerSpell] =
-    role === "Jungle"
-      ? [
-          smite,
-          pick(
-            nonJungleSummoners.filter((spell) => spell.id !== "teleport"),
-            hash >>> 5
-          )
-        ]
-      : [flash, pick(nonJungleSummoners, hash >>> 7)];
+  return role === "Jungle"
+    ? ([
+        smite,
+        pick(
+          nonJungleSummoners.filter((spell) => spell.id !== "teleport"),
+          hash >>> 5
+        )
+      ] satisfies [SummonerSpell, SummonerSpell])
+    : ([flash, pick(nonJungleSummoners, hash >>> 7)] satisfies [
+        SummonerSpell,
+        SummonerSpell
+      ]);
+}
+
+function resolveItems(
+  hash: number,
+  role: Role,
+  roleChanged: boolean,
+  previous?: Challenge,
+  options = defaultRollOptions
+) {
+  if (previous && !options.items && !roleChanged) {
+    return previous.items;
+  }
 
   const starterPool =
     role === "Jungle"
@@ -197,7 +259,8 @@ export function randomChallenge(seed: string): Challenge {
     (item) => item.slot !== "Start" && item.slot !== "Boots"
   );
   const usedItemIds = new Set<string>();
-  const items = [
+
+  return [
     pickUnused(starterPool, hash >>> 9, usedItemIds),
     pickUnused(bootsPool, hash >>> 11, usedItemIds),
     pickUnused(corePool, hash >>> 13, usedItemIds),
@@ -205,15 +268,60 @@ export function randomChallenge(seed: string): Challenge {
     pickUnused(corePool, hash >>> 17, usedItemIds),
     pickUnused(corePool, hash >>> 19, usedItemIds)
   ];
+}
+
+function resolveBan(
+  hash: number,
+  champion: Champion,
+  championChanged: boolean,
+  previous?: Challenge,
+  options = defaultRollOptions
+) {
+  if (
+    previous &&
+    !options.ban &&
+    !championChanged &&
+    previous.banChampion.id !== champion.id
+  ) {
+    return previous.banChampion;
+  }
+
   const banPool = champions.filter((candidate) => candidate.id !== champion.id);
+
+  return pick(banPool, hash >>> 23);
+}
+
+export function randomChallenge(
+  seed: string,
+  previous?: Challenge,
+  options: RollOptions = defaultRollOptions
+): Challenge {
+  const hash = hashSeed(seed);
+  const role = resolveRole(hash, previous, options);
+  const roleChanged = Boolean(previous && previous.role !== role);
+  const champion = resolveChampion(hash, role, previous, options);
+  const championChanged = Boolean(previous && previous.champion.id !== champion.id);
+  const summoners = resolveSummoners(hash, role, roleChanged, previous, options);
+  const items = resolveItems(hash, role, roleChanged, previous, options);
+  const skillOrder =
+    previous && !options.abilities
+      ? previous.skillOrder
+      : pick(skillOrders, hash >>> 21);
+  const banChampion = resolveBan(
+    hash,
+    champion,
+    championChanged,
+    previous,
+    options
+  );
 
   return {
     champion,
     role,
     summoners,
     items,
-    skillOrder: pick(skillOrders, hash >>> 21),
-    banChampion: pick(banPool, hash >>> 23),
+    skillOrder,
+    banChampion,
     difficulty: role === champion.roles[0] ? 1 : 2
   };
 }

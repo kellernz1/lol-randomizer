@@ -31,4 +31,38 @@ describe("randomChallenge", () => {
       expect(new Set(itemIds).size).toBe(itemIds.length);
     }
   });
+
+  it("preserves disabled roll sections", () => {
+    const initialChallenge = randomChallenge("initial-seed");
+    const nextChallenge = randomChallenge("next-seed", initialChallenge, {
+      champion: false,
+      role: false,
+      items: true,
+      summoners: false,
+      abilities: false,
+      ban: false
+    });
+
+    expect(nextChallenge.champion.id).toBe(initialChallenge.champion.id);
+    expect(nextChallenge.role).toBe(initialChallenge.role);
+    expect(nextChallenge.summoners).toEqual(initialChallenge.summoners);
+    expect(nextChallenge.skillOrder).toEqual(initialChallenge.skillOrder);
+    expect(nextChallenge.banChampion.id).toBe(initialChallenge.banChampion.id);
+  });
+
+  it("keeps champion and role compatible on partial rerolls", () => {
+    for (let index = 0; index < 100; index += 1) {
+      const initialChallenge = randomChallenge(`initial-${index}`);
+      const nextChallenge = randomChallenge(`next-${index}`, initialChallenge, {
+        champion: false,
+        role: true,
+        items: true,
+        summoners: true,
+        abilities: true,
+        ban: true
+      });
+
+      expect(nextChallenge.champion.roles).toContain(nextChallenge.role);
+    }
+  });
 });

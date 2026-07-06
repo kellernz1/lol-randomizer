@@ -4,8 +4,10 @@ import {
   DATA_DRAGON_VERSION,
   championIcon,
   championSplash,
+  defaultRollOptions,
   randomChallenge
 } from "../features/randomizer/randomizer";
+import type { RollOptions } from "../features/randomizer/randomizer";
 
 const roleIcons = {
   Top: "TOP",
@@ -15,12 +17,45 @@ const roleIcons = {
   Support: "SUP"
 };
 
+const rollOptionLabels: Record<keyof RollOptions, string> = {
+  champion: "Champion",
+  role: "Role",
+  items: "Items",
+  summoners: "Summoners",
+  abilities: "Abilities",
+  ban: "Ban"
+};
+
 export function App() {
-  const [seed, setSeed] = useState(() => crypto.randomUUID());
-  const challenge = useMemo(() => randomChallenge(seed), [seed]);
+  const [challenge, setChallenge] = useState(() =>
+    randomChallenge(crypto.randomUUID())
+  );
+  const [isConfigOpen, setIsConfigOpen] = useState(false);
+  const [rollOptions, setRollOptions] = useState(defaultRollOptions);
+  const enabledOptionCount = useMemo(
+    () => Object.values(rollOptions).filter(Boolean).length,
+    [rollOptions]
+  );
   const splashStyle = {
     "--splash": `url(${championSplash(challenge.champion)})`
   } as CSSProperties;
+
+  function toggleRollOption(option: keyof RollOptions) {
+    setRollOptions((currentOptions) => {
+      const nextOptions = {
+        ...currentOptions,
+        [option]: !currentOptions[option]
+      };
+
+      return Object.values(nextOptions).some(Boolean) ? nextOptions : currentOptions;
+    });
+  }
+
+  function reroll() {
+    setChallenge((currentChallenge) =>
+      randomChallenge(crypto.randomUUID(), currentChallenge, rollOptions)
+    );
+  }
 
   return (
     <main className="shell" style={splashStyle}>
@@ -28,10 +63,50 @@ export function App() {
         <a className="brand" href={import.meta.env.BASE_URL}>
           LoL Randomizer <span>{DATA_DRAGON_VERSION}</span>
         </a>
-        <button className="settings-button" type="button" aria-label="Configuracoes">
+        <button
+          aria-expanded={isConfigOpen}
+          className={isConfigOpen ? "settings-button active" : "settings-button"}
+          type="button"
+          onClick={() => setIsConfigOpen((current) => !current)}
+        >
           Config
         </button>
       </header>
+
+      {isConfigOpen ? (
+        <aside className="config-panel" aria-label="Configuracoes de roll">
+          <div>
+            <p className="eyebrow">Reroll Options</p>
+            <h2>Escolha o que sortear</h2>
+          </div>
+
+          <div className="roll-options">
+            {(Object.keys(rollOptionLabels) as Array<keyof RollOptions>).map(
+              (option) => (
+                <label className="toggle-row" key={option}>
+                  <input
+                    checked={rollOptions[option]}
+                    type="checkbox"
+                    onChange={() => toggleRollOption(option)}
+                  />
+                  <span>{rollOptionLabels[option]}</span>
+                </label>
+              )
+            )}
+          </div>
+
+          <div className="config-actions">
+            <button
+              className="ghost-button"
+              type="button"
+              onClick={() => setRollOptions(defaultRollOptions)}
+            >
+              All
+            </button>
+            <span>{enabledOptionCount}/6 ativos</span>
+          </div>
+        </aside>
+      ) : null}
 
       <section className="stage" aria-live="polite" aria-label="Resultado">
         <nav className="role-strip" aria-label="Rotas">
@@ -64,7 +139,7 @@ export function App() {
           <button
             className="reroll-button"
             type="button"
-            onClick={() => setSeed(crypto.randomUUID())}
+            onClick={reroll}
           >
             Reroll
           </button>
