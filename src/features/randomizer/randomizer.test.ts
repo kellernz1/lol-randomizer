@@ -57,6 +57,15 @@ describe("randomChallenge", () => {
     expect(catalog.items.length).toBeGreaterThan(100);
   });
 
+  it("keeps core slots on final Summoner's Rift items", () => {
+    const itemIds = catalog.items.map((item) => item.id);
+    const itemNames = catalog.items.map((item) => item.name);
+
+    expect(itemIds.every((id) => id.length <= 4)).toBe(true);
+    expect(itemNames).not.toContain("Cinto do Gigante");
+    expect(itemNames).not.toContain("Coroa do Rei Demoníaco");
+  });
+
   it("preserves disabled roll sections", () => {
     const initialChallenge = randomChallenge("initial-seed");
     const nextChallenge = randomChallenge("next-seed", initialChallenge, {

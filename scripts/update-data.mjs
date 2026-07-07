@@ -65,6 +65,14 @@ function normalizeItem([id, item], version) {
   };
 }
 
+function itemIsStandardSummonersRiftId(id) {
+  return id.length <= 4;
+}
+
+function itemIsFinalCoreItem(item) {
+  return !item.into || item.into.length === 0;
+}
+
 async function main() {
   const versions = await fetchJson(`${dataDragonBase}/api/versions.json`);
   const version = versions[0];
@@ -82,7 +90,16 @@ async function main() {
     .sort((a, b) => a.name.localeCompare(b.name, locale));
 
   const items = Object.entries(itemData.data)
-    .filter((entry) => itemIsSummonersRiftItem(entry[1]))
+    .filter(
+      ([id, item]) =>
+        itemIsStandardSummonersRiftId(id) && itemIsSummonersRiftItem(item)
+    )
+    .filter(
+      ([id, item]) =>
+        starterItemIds.has(id) ||
+        item.tags?.includes("Boots") ||
+        itemIsFinalCoreItem(item)
+    )
     .map((entry) => normalizeItem(entry, version))
     .sort((a, b) => a.name.localeCompare(b.name, locale));
 
