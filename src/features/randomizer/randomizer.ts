@@ -13,6 +13,9 @@ type CatalogItem = {
   name: string;
   iconUrl: string;
   category: "starter" | "boots" | "core";
+  supportOnly: boolean;
+  depth: number;
+  goldTotal: number;
 };
 
 type Item = CatalogItem & {
@@ -204,12 +207,24 @@ function resolveItems(
   const starterPool =
     role === "Jungle"
       ? itemPool.filter((item) => jungleStarterIds.has(item.id))
+      : role === "Support"
+        ? itemPool.filter(
+            (item) =>
+              item.category === "starter" &&
+              item.supportOnly &&
+              !jungleStarterIds.has(item.id)
+          )
       : itemPool.filter(
           (item) =>
-            item.category === "starter" && !jungleStarterIds.has(item.id)
+            item.category === "starter" &&
+            !item.supportOnly &&
+            !jungleStarterIds.has(item.id)
         );
   const bootsPool = itemPool.filter((item) => item.category === "boots");
-  const corePool = itemPool.filter((item) => item.category === "core");
+  const corePool = itemPool.filter(
+    (item) =>
+      item.category === "core" && (role === "Support" || !item.supportOnly)
+  );
   const usedItemIds = new Set<string>();
 
   return [

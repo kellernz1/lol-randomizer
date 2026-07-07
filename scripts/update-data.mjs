@@ -22,6 +22,36 @@ const starterItemIds = new Set([
   "3877",
   "3878"
 ]);
+const supportStarterItemIds = new Set([
+  "3865",
+  "3866",
+  "3867",
+  "3869",
+  "3870",
+  "3871",
+  "3876",
+  "3877",
+  "3878"
+]);
+const supportOnlyCoreItemIds = new Set([
+  "3107",
+  "3222",
+  "3504",
+  "3879",
+  "4643",
+  "6617",
+  "6620",
+  "6653",
+  "6690"
+]);
+const excludedItemIds = new Set([
+  "1086",
+  "1120",
+  "2051",
+  "3112",
+  "3177",
+  "3184"
+]);
 const excludedItemTags = new Set(["Consumable", "Trinket"]);
 
 async function fetchJson(url) {
@@ -61,6 +91,7 @@ function normalizeItem([id, item], version) {
     tags,
     depth: item.depth ?? 1,
     goldTotal: item.gold?.total ?? 0,
+    supportOnly: supportStarterItemIds.has(id) || supportOnlyCoreItemIds.has(id),
     category: isBoots ? "boots" : isStarter ? "starter" : "core"
   };
 }
@@ -71,6 +102,17 @@ function itemIsStandardSummonersRiftId(id) {
 
 function itemIsFinalCoreItem(item) {
   return !item.into || item.into.length === 0;
+}
+
+function itemIsLegendaryCandidate(item) {
+  const tags = item.tags ?? [];
+
+  return (
+    itemIsFinalCoreItem(item) &&
+    (item.depth ?? 0) >= 2 &&
+    (item.gold?.total ?? 0) >= 1500 &&
+    !tags.includes("Lane")
+  );
 }
 
 async function main() {
@@ -94,11 +136,12 @@ async function main() {
       ([id, item]) =>
         itemIsStandardSummonersRiftId(id) && itemIsSummonersRiftItem(item)
     )
+    .filter(([id]) => !excludedItemIds.has(id))
     .filter(
       ([id, item]) =>
         starterItemIds.has(id) ||
         item.tags?.includes("Boots") ||
-        itemIsFinalCoreItem(item)
+        itemIsLegendaryCandidate(item)
     )
     .map((entry) => normalizeItem(entry, version))
     .sort((a, b) => a.name.localeCompare(b.name, locale));

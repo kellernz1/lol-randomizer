@@ -84,6 +84,30 @@ describe("randomChallenge", () => {
     expect(nextChallenge.banChampion.id).toBe(initialChallenge.banChampion.id);
   });
 
+  it("only rolls support-only items for support challenges", () => {
+    for (let index = 0; index < 100; index += 1) {
+      const challenge = randomChallenge(`support-only-${index}`);
+      const hasSupportOnlyItem = challenge.items.some((item) => item.supportOnly);
+
+      if (challenge.role !== "Support") {
+        expect(hasSupportOnlyItem).toBe(false);
+      }
+    }
+  });
+
+  it("only rolls legendary core items in numbered slots", () => {
+    for (let index = 0; index < 100; index += 1) {
+      const challenge = randomChallenge(`legendary-core-${index}`);
+      const numberedItems = challenge.items.filter((item) =>
+        ["1st", "2nd", "3rd", "4th"].includes(item.slot)
+      );
+
+      expect(numberedItems.every((item) => item.category === "core")).toBe(true);
+      expect(numberedItems.every((item) => item.goldTotal >= 1500)).toBe(true);
+      expect(numberedItems.every((item) => item.depth >= 2)).toBe(true);
+    }
+  });
+
   it("keeps champion fixed while rerolling role", () => {
     for (let index = 0; index < 100; index += 1) {
       const initialChallenge = randomChallenge(`initial-${index}`);
