@@ -1,6 +1,6 @@
 # LoL Randomizer
 
-Randomizador frontend-only para criar desafios de League of Legends com campeao,
+Randomizador frontend-only para criar desafios de League of Legends com campeão,
 rota, spells, itens, ordem de habilidades e ban sugerido.
 
 O app foi feito para ser rapido de usar durante o champ select: um clique em
@@ -85,10 +85,10 @@ Depois disso, pushes na branch `main` disparam o workflow de deploy.
 
 ## Dados e Imagens
 
-As imagens de campeoes, itens e summoner spells sao consumidas diretamente do
-CDN oficial Data Dragon em tempo de uso. Elas nao sao versionadas no repositorio.
+As imagens de campeoes, itens e summoner spells são consumidas diretamente do
+CDN oficial Data Dragon em tempo de uso. Elas não são versionadas no repositorio.
 
 ## Aviso Legal
 
 Este projeto não é afiliado, endossado ou patrocinado pela Riot Games. League
-of Legends e Riot Games sao marcas registradas da Riot Games, Inc.
+of Legends e Riot Games são marcas registradas da Riot Games, Inc.
