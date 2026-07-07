@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { randomChallenge } from "./randomizer";
+import catalog from "../../data/catalog.json";
 
 describe("randomChallenge", () => {
   it("never puts Smite outside jungle", () => {
@@ -40,6 +41,20 @@ describe("randomChallenge", () => {
 
       expect(new Set(itemIds).size).toBe(itemIds.length);
     }
+  });
+
+  it("does not repeat item slots in the same roll", () => {
+    for (let index = 0; index < 100; index += 1) {
+      const challenge = randomChallenge(`seed-${index}`);
+      const itemSlots = challenge.items.map((item) => item.slot);
+
+      expect(itemSlots).toEqual(["Start", "Boots", "1st", "2nd", "3rd", "4th"]);
+    }
+  });
+
+  it("uses the generated Data Dragon catalog", () => {
+    expect(catalog.champions.length).toBeGreaterThan(150);
+    expect(catalog.items.length).toBeGreaterThan(100);
   });
 
   it("preserves disabled roll sections", () => {

@@ -1,0 +1,4026 @@
+{
+  "version": "16.13.1",
+  "champions": [
+    {
+      "id": "Aatrox",
+      "dataDragonId": "Aatrox",
+      "name": "Aatrox"
+    },
+    {
+      "id": "Ahri",
+      "dataDragonId": "Ahri",
+      "name": "Ahri"
+    },
+    {
+      "id": "Akali",
+      "dataDragonId": "Akali",
+      "name": "Akali"
+    },
+    {
+      "id": "Akshan",
+      "dataDragonId": "Akshan",
+      "name": "Akshan"
+    },
+    {
+      "id": "Alistar",
+      "dataDragonId": "Alistar",
+      "name": "Alistar"
+    },
+    {
+      "id": "Ambessa",
+      "dataDragonId": "Ambessa",
+      "name": "Ambessa"
+    },
+    {
+      "id": "Amumu",
+      "dataDragonId": "Amumu",
+      "name": "Amumu"
+    },
+    {
+      "id": "Anivia",
+      "dataDragonId": "Anivia",
+      "name": "Anivia"
+    },
+    {
+      "id": "Annie",
+      "dataDragonId": "Annie",
+      "name": "Annie"
+    },
+    {
+      "id": "Aphelios",
+      "dataDragonId": "Aphelios",
+      "name": "Aphelios"
+    },
+    {
+      "id": "Ashe",
+      "dataDragonId": "Ashe",
+      "name": "Ashe"
+    },
+    {
+      "id": "AurelionSol",
+      "dataDragonId": "AurelionSol",
+      "name": "Aurelion Sol"
+    },
+    {
+      "id": "Aurora",
+      "dataDragonId": "Aurora",
+      "name": "Aurora"
+    },
+    {
+      "id": "Azir",
+      "dataDragonId": "Azir",
+      "name": "Azir"
+    },
+    {
+      "id": "Bard",
+      "dataDragonId": "Bard",
+      "name": "Bardo"
+    },
+    {
+      "id": "Belveth",
+      "dataDragonId": "Belveth",
+      "name": "Bel'Veth"
+    },
+    {
+      "id": "Blitzcrank",
+      "dataDragonId": "Blitzcrank",
+      "name": "Blitzcrank"
+    },
+    {
+      "id": "Brand",
+      "dataDragonId": "Brand",
+      "name": "Brand"
+    },
+    {
+      "id": "Braum",
+      "dataDragonId": "Braum",
+      "name": "Braum"
+    },
+    {
+      "id": "Briar",
+      "dataDragonId": "Briar",
+      "name": "Briar"
+    },
+    {
+      "id": "Caitlyn",
+      "dataDragonId": "Caitlyn",
+      "name": "Caitlyn"
+    },
+    {
+      "id": "Camille",
+      "dataDragonId": "Camille",
+      "name": "Camille"
+    },
+    {
+      "id": "Cassiopeia",
+      "dataDragonId": "Cassiopeia",
+      "name": "Cassiopeia"
+    },
+    {
+      "id": "Chogath",
+      "dataDragonId": "Chogath",
+      "name": "Cho'Gath"
+    },
+    {
+      "id": "Corki",
+      "dataDragonId": "Corki",
+      "name": "Corki"
+    },
+    {
+      "id": "Darius",
+      "dataDragonId": "Darius",
+      "name": "Darius"
+    },
+    {
+      "id": "Diana",
+      "dataDragonId": "Diana",
+      "name": "Diana"
+    },
+    {
+      "id": "DrMundo",
+      "dataDragonId": "DrMundo",
+      "name": "Dr. Mundo"
+    },
+    {
+      "id": "Draven",
+      "dataDragonId": "Draven",
+      "name": "Draven"
+    },
+    {
+      "id": "Ekko",
+      "dataDragonId": "Ekko",
+      "name": "Ekko"
+    },
+    {
+      "id": "Elise",
+      "dataDragonId": "Elise",
+      "name": "Elise"
+    },
+    {
+      "id": "Evelynn",
+      "dataDragonId": "Evelynn",
+      "name": "Evelynn"
+    },
+    {
+      "id": "Ezreal",
+      "dataDragonId": "Ezreal",
+      "name": "Ezreal"
+    },
+    {
+      "id": "Fiddlesticks",
+      "dataDragonId": "Fiddlesticks",
+      "name": "Fiddlesticks"
+    },
+    {
+      "id": "Fiora",
+      "dataDragonId": "Fiora",
+      "name": "Fiora"
+    },
+    {
+      "id": "Fizz",
+      "dataDragonId": "Fizz",
+      "name": "Fizz"
+    },
+    {
+      "id": "Galio",
+      "dataDragonId": "Galio",
+      "name": "Galio"
+    },
+    {
+      "id": "Gangplank",
+      "dataDragonId": "Gangplank",
+      "name": "Gangplank"
+    },
+    {
+      "id": "Garen",
+      "dataDragonId": "Garen",
+      "name": "Garen"
+    },
+    {
+      "id": "Gnar",
+      "dataDragonId": "Gnar",
+      "name": "Gnar"
+    },
+    {
+      "id": "Gragas",
+      "dataDragonId": "Gragas",
+      "name": "Gragas"
+    },
+    {
+      "id": "Graves",
+      "dataDragonId": "Graves",
+      "name": "Graves"
+    },
+    {
+      "id": "Gwen",
+      "dataDragonId": "Gwen",
+      "name": "Gwen"
+    },
+    {
+      "id": "Hecarim",
+      "dataDragonId": "Hecarim",
+      "name": "Hecarim"
+    },
+    {
+      "id": "Heimerdinger",
+      "dataDragonId": "Heimerdinger",
+      "name": "Heimerdinger"
+    },
+    {
+      "id": "Hwei",
+      "dataDragonId": "Hwei",
+      "name": "Hwei"
+    },
+    {
+      "id": "Illaoi",
+      "dataDragonId": "Illaoi",
+      "name": "Illaoi"
+    },
+    {
+      "id": "Irelia",
+      "dataDragonId": "Irelia",
+      "name": "Irelia"
+    },
+    {
+      "id": "Ivern",
+      "dataDragonId": "Ivern",
+      "name": "Ivern"
+    },
+    {
+      "id": "Janna",
+      "dataDragonId": "Janna",
+      "name": "Janna"
+    },
+    {
+      "id": "JarvanIV",
+      "dataDragonId": "JarvanIV",
+      "name": "Jarvan IV"
+    },
+    {
+      "id": "Jax",
+      "dataDragonId": "Jax",
+      "name": "Jax"
+    },
+    {
+      "id": "Jayce",
+      "dataDragonId": "Jayce",
+      "name": "Jayce"
+    },
+    {
+      "id": "Jhin",
+      "dataDragonId": "Jhin",
+      "name": "Jhin"
+    },
+    {
+      "id": "Jinx",
+      "dataDragonId": "Jinx",
+      "name": "Jinx"
+    },
+    {
+      "id": "KSante",
+      "dataDragonId": "KSante",
+      "name": "K'Sante"
+    },
+    {
+      "id": "Kaisa",
+      "dataDragonId": "Kaisa",
+      "name": "Kai'Sa"
+    },
+    {
+      "id": "Kalista",
+      "dataDragonId": "Kalista",
+      "name": "Kalista"
+    },
+    {
+      "id": "Karma",
+      "dataDragonId": "Karma",
+      "name": "Karma"
+    },
+    {
+      "id": "Karthus",
+      "dataDragonId": "Karthus",
+      "name": "Karthus"
+    },
+    {
+      "id": "Kassadin",
+      "dataDragonId": "Kassadin",
+      "name": "Kassadin"
+    },
+    {
+      "id": "Katarina",
+      "dataDragonId": "Katarina",
+      "name": "Katarina"
+    },
+    {
+      "id": "Kayle",
+      "dataDragonId": "Kayle",
+      "name": "Kayle"
+    },
+    {
+      "id": "Kayn",
+      "dataDragonId": "Kayn",
+      "name": "Kayn"
+    },
+    {
+      "id": "Kennen",
+      "dataDragonId": "Kennen",
+      "name": "Kennen"
+    },
+    {
+      "id": "Khazix",
+      "dataDragonId": "Khazix",
+      "name": "Kha'Zix"
+    },
+    {
+      "id": "Kindred",
+      "dataDragonId": "Kindred",
+      "name": "Kindred"
+    },
+    {
+      "id": "Kled",
+      "dataDragonId": "Kled",
+      "name": "Kled"
+    },
+    {
+      "id": "KogMaw",
+      "dataDragonId": "KogMaw",
+      "name": "Kog'Maw"
+    },
+    {
+      "id": "Leblanc",
+      "dataDragonId": "Leblanc",
+      "name": "LeBlanc"
+    },
+    {
+      "id": "LeeSin",
+      "dataDragonId": "LeeSin",
+      "name": "Lee Sin"
+    },
+    {
+      "id": "Leona",
+      "dataDragonId": "Leona",
+      "name": "Leona"
+    },
+    {
+      "id": "Lillia",
+      "dataDragonId": "Lillia",
+      "name": "Lillia"
+    },
+    {
+      "id": "Lissandra",
+      "dataDragonId": "Lissandra",
+      "name": "Lissandra"
+    },
+    {
+      "id": "Locke",
+      "dataDragonId": "Locke",
+      "name": "Locke"
+    },
+    {
+      "id": "Lucian",
+      "dataDragonId": "Lucian",
+      "name": "Lucian"
+    },
+    {
+      "id": "Lulu",
+      "dataDragonId": "Lulu",
+      "name": "Lulu"
+    },
+    {
+      "id": "Lux",
+      "dataDragonId": "Lux",
+      "name": "Lux"
+    },
+    {
+      "id": "Malphite",
+      "dataDragonId": "Malphite",
+      "name": "Malphite"
+    },
+    {
+      "id": "Malzahar",
+      "dataDragonId": "Malzahar",
+      "name": "Malzahar"
+    },
+    {
+      "id": "Maokai",
+      "dataDragonId": "Maokai",
+      "name": "Maokai"
+    },
+    {
+      "id": "MasterYi",
+      "dataDragonId": "MasterYi",
+      "name": "Master Yi"
+    },
+    {
+      "id": "Mel",
+      "dataDragonId": "Mel",
+      "name": "Mel"
+    },
+    {
+      "id": "Milio",
+      "dataDragonId": "Milio",
+      "name": "Milio"
+    },
+    {
+      "id": "MissFortune",
+      "dataDragonId": "MissFortune",
+      "name": "Miss Fortune"
+    },
+    {
+      "id": "Mordekaiser",
+      "dataDragonId": "Mordekaiser",
+      "name": "Mordekaiser"
+    },
+    {
+      "id": "Morgana",
+      "dataDragonId": "Morgana",
+      "name": "Morgana"
+    },
+    {
+      "id": "Naafiri",
+      "dataDragonId": "Naafiri",
+      "name": "Naafiri"
+    },
+    {
+      "id": "Nami",
+      "dataDragonId": "Nami",
+      "name": "Nami"
+    },
+    {
+      "id": "Nasus",
+      "dataDragonId": "Nasus",
+      "name": "Nasus"
+    },
+    {
+      "id": "Nautilus",
+      "dataDragonId": "Nautilus",
+      "name": "Nautilus"
+    },
+    {
+      "id": "Neeko",
+      "dataDragonId": "Neeko",
+      "name": "Neeko"
+    },
+    {
+      "id": "Nidalee",
+      "dataDragonId": "Nidalee",
+      "name": "Nidalee"
+    },
+    {
+      "id": "Nilah",
+      "dataDragonId": "Nilah",
+      "name": "Nilah"
+    },
+    {
+      "id": "Nocturne",
+      "dataDragonId": "Nocturne",
+      "name": "Nocturne"
+    },
+    {
+      "id": "Nunu",
+      "dataDragonId": "Nunu",
+      "name": "Nunu e Willump"
+    },
+    {
+      "id": "Olaf",
+      "dataDragonId": "Olaf",
+      "name": "Olaf"
+    },
+    {
+      "id": "Orianna",
+      "dataDragonId": "Orianna",
+      "name": "Orianna"
+    },
+    {
+      "id": "Ornn",
+      "dataDragonId": "Ornn",
+      "name": "Ornn"
+    },
+    {
+      "id": "Pantheon",
+      "dataDragonId": "Pantheon",
+      "name": "Pantheon"
+    },
+    {
+      "id": "Poppy",
+      "dataDragonId": "Poppy",
+      "name": "Poppy"
+    },
+    {
+      "id": "Pyke",
+      "dataDragonId": "Pyke",
+      "name": "Pyke"
+    },
+    {
+      "id": "Qiyana",
+      "dataDragonId": "Qiyana",
+      "name": "Qiyana"
+    },
+    {
+      "id": "Quinn",
+      "dataDragonId": "Quinn",
+      "name": "Quinn"
+    },
+    {
+      "id": "Rakan",
+      "dataDragonId": "Rakan",
+      "name": "Rakan"
+    },
+    {
+      "id": "Rammus",
+      "dataDragonId": "Rammus",
+      "name": "Rammus"
+    },
+    {
+      "id": "RekSai",
+      "dataDragonId": "RekSai",
+      "name": "Rek'Sai"
+    },
+    {
+      "id": "Rell",
+      "dataDragonId": "Rell",
+      "name": "Rell"
+    },
+    {
+      "id": "Renata",
+      "dataDragonId": "Renata",
+      "name": "Renata Glasc"
+    },
+    {
+      "id": "Renekton",
+      "dataDragonId": "Renekton",
+      "name": "Renekton"
+    },
+    {
+      "id": "Rengar",
+      "dataDragonId": "Rengar",
+      "name": "Rengar"
+    },
+    {
+      "id": "Riven",
+      "dataDragonId": "Riven",
+      "name": "Riven"
+    },
+    {
+      "id": "Rumble",
+      "dataDragonId": "Rumble",
+      "name": "Rumble"
+    },
+    {
+      "id": "Ryze",
+      "dataDragonId": "Ryze",
+      "name": "Ryze"
+    },
+    {
+      "id": "Samira",
+      "dataDragonId": "Samira",
+      "name": "Samira"
+    },
+    {
+      "id": "Sejuani",
+      "dataDragonId": "Sejuani",
+      "name": "Sejuani"
+    },
+    {
+      "id": "Senna",
+      "dataDragonId": "Senna",
+      "name": "Senna"
+    },
+    {
+      "id": "Seraphine",
+      "dataDragonId": "Seraphine",
+      "name": "Seraphine"
+    },
+    {
+      "id": "Sett",
+      "dataDragonId": "Sett",
+      "name": "Sett"
+    },
+    {
+      "id": "Shaco",
+      "dataDragonId": "Shaco",
+      "name": "Shaco"
+    },
+    {
+      "id": "Shen",
+      "dataDragonId": "Shen",
+      "name": "Shen"
+    },
+    {
+      "id": "Shyvana",
+      "dataDragonId": "Shyvana",
+      "name": "Shyvana"
+    },
+    {
+      "id": "Singed",
+      "dataDragonId": "Singed",
+      "name": "Singed"
+    },
+    {
+      "id": "Sion",
+      "dataDragonId": "Sion",
+      "name": "Sion"
+    },
+    {
+      "id": "Sivir",
+      "dataDragonId": "Sivir",
+      "name": "Sivir"
+    },
+    {
+      "id": "Skarner",
+      "dataDragonId": "Skarner",
+      "name": "Skarner"
+    },
+    {
+      "id": "Smolder",
+      "dataDragonId": "Smolder",
+      "name": "Smolder"
+    },
+    {
+      "id": "Sona",
+      "dataDragonId": "Sona",
+      "name": "Sona"
+    },
+    {
+      "id": "Soraka",
+      "dataDragonId": "Soraka",
+      "name": "Soraka"
+    },
+    {
+      "id": "Swain",
+      "dataDragonId": "Swain",
+      "name": "Swain"
+    },
+    {
+      "id": "Sylas",
+      "dataDragonId": "Sylas",
+      "name": "Sylas"
+    },
+    {
+      "id": "Syndra",
+      "dataDragonId": "Syndra",
+      "name": "Syndra"
+    },
+    {
+      "id": "TahmKench",
+      "dataDragonId": "TahmKench",
+      "name": "Tahm Kench"
+    },
+    {
+      "id": "Taliyah",
+      "dataDragonId": "Taliyah",
+      "name": "Taliyah"
+    },
+    {
+      "id": "Talon",
+      "dataDragonId": "Talon",
+      "name": "Talon"
+    },
+    {
+      "id": "Taric",
+      "dataDragonId": "Taric",
+      "name": "Taric"
+    },
+    {
+      "id": "Teemo",
+      "dataDragonId": "Teemo",
+      "name": "Teemo"
+    },
+    {
+      "id": "Thresh",
+      "dataDragonId": "Thresh",
+      "name": "Thresh"
+    },
+    {
+      "id": "Tristana",
+      "dataDragonId": "Tristana",
+      "name": "Tristana"
+    },
+    {
+      "id": "Trundle",
+      "dataDragonId": "Trundle",
+      "name": "Trundle"
+    },
+    {
+      "id": "Tryndamere",
+      "dataDragonId": "Tryndamere",
+      "name": "Tryndamere"
+    },
+    {
+      "id": "TwistedFate",
+      "dataDragonId": "TwistedFate",
+      "name": "Twisted Fate"
+    },
+    {
+      "id": "Twitch",
+      "dataDragonId": "Twitch",
+      "name": "Twitch"
+    },
+    {
+      "id": "Udyr",
+      "dataDragonId": "Udyr",
+      "name": "Udyr"
+    },
+    {
+      "id": "Urgot",
+      "dataDragonId": "Urgot",
+      "name": "Urgot"
+    },
+    {
+      "id": "Varus",
+      "dataDragonId": "Varus",
+      "name": "Varus"
+    },
+    {
+      "id": "Vayne",
+      "dataDragonId": "Vayne",
+      "name": "Vayne"
+    },
+    {
+      "id": "Veigar",
+      "dataDragonId": "Veigar",
+      "name": "Veigar"
+    },
+    {
+      "id": "Velkoz",
+      "dataDragonId": "Velkoz",
+      "name": "Vel'Koz"
+    },
+    {
+      "id": "Vex",
+      "dataDragonId": "Vex",
+      "name": "Vex"
+    },
+    {
+      "id": "Vi",
+      "dataDragonId": "Vi",
+      "name": "Vi"
+    },
+    {
+      "id": "Viego",
+      "dataDragonId": "Viego",
+      "name": "Viego"
+    },
+    {
+      "id": "Viktor",
+      "dataDragonId": "Viktor",
+      "name": "Viktor"
+    },
+    {
+      "id": "Vladimir",
+      "dataDragonId": "Vladimir",
+      "name": "Vladimir"
+    },
+    {
+      "id": "Volibear",
+      "dataDragonId": "Volibear",
+      "name": "Volibear"
+    },
+    {
+      "id": "Warwick",
+      "dataDragonId": "Warwick",
+      "name": "Warwick"
+    },
+    {
+      "id": "MonkeyKing",
+      "dataDragonId": "MonkeyKing",
+      "name": "Wukong"
+    },
+    {
+      "id": "Xayah",
+      "dataDragonId": "Xayah",
+      "name": "Xayah"
+    },
+    {
+      "id": "Xerath",
+      "dataDragonId": "Xerath",
+      "name": "Xerath"
+    },
+    {
+      "id": "XinZhao",
+      "dataDragonId": "XinZhao",
+      "name": "Xin Zhao"
+    },
+    {
+      "id": "Yasuo",
+      "dataDragonId": "Yasuo",
+      "name": "Yasuo"
+    },
+    {
+      "id": "Yone",
+      "dataDragonId": "Yone",
+      "name": "Yone"
+    },
+    {
+      "id": "Yorick",
+      "dataDragonId": "Yorick",
+      "name": "Yorick"
+    },
+    {
+      "id": "Yunara",
+      "dataDragonId": "Yunara",
+      "name": "Yunara"
+    },
+    {
+      "id": "Yuumi",
+      "dataDragonId": "Yuumi",
+      "name": "Yuumi"
+    },
+    {
+      "id": "Zaahen",
+      "dataDragonId": "Zaahen",
+      "name": "Zaahen"
+    },
+    {
+      "id": "Zac",
+      "dataDragonId": "Zac",
+      "name": "Zac"
+    },
+    {
+      "id": "Zed",
+      "dataDragonId": "Zed",
+      "name": "Zed"
+    },
+    {
+      "id": "Zeri",
+      "dataDragonId": "Zeri",
+      "name": "Zeri"
+    },
+    {
+      "id": "Ziggs",
+      "dataDragonId": "Ziggs",
+      "name": "Ziggs"
+    },
+    {
+      "id": "Zilean",
+      "dataDragonId": "Zilean",
+      "name": "Zilean"
+    },
+    {
+      "id": "Zoe",
+      "dataDragonId": "Zoe",
+      "name": "Zoe"
+    },
+    {
+      "id": "Zyra",
+      "dataDragonId": "Zyra",
+      "name": "Zyra"
+    }
+  ],
+  "items": [
+    {
+      "id": "6676",
+      "name": "A Coletora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6676.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "667666",
+      "name": "A Coletora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667666.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "1083",
+      "name": "Abatedora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1083.png",
+      "tags": [
+        "Damage",
+        "OnHit",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "core"
+    },
+    {
+      "id": "663039",
+      "name": "Acerto de Contas de Atma",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663039.png",
+      "tags": [
+        "Health",
+        "CriticalStrike",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "1042",
+      "name": "Adaga",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1042.png",
+      "tags": [
+        "AttackSpeed"
+      ],
+      "depth": 1,
+      "goldTotal": 250,
+      "category": "core"
+    },
+    {
+      "id": "6675",
+      "name": "Adaga Oscilante Navori",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6675.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "6670",
+      "name": "Aljava Vespertina",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6670.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "depth": 2,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "3145",
+      "name": "Alternador Hextec",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3145.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "core"
+    },
+    {
+      "id": "3157",
+      "name": "Ampulheta de Zhonya",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3157.png",
+      "tags": [
+        "Armor",
+        "SpellDamage",
+        "Active"
+      ],
+      "depth": 3,
+      "goldTotal": 3250,
+      "category": "core"
+    },
+    {
+      "id": "1004",
+      "name": "Amuleto da Fada",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1004.png",
+      "tags": [
+        "ManaRegen"
+      ],
+      "depth": 1,
+      "goldTotal": 200,
+      "category": "core"
+    },
+    {
+      "id": "1056",
+      "name": "Anel de Doran",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1056.png",
+      "tags": [
+        "Health",
+        "Lane",
+        "ManaRegen",
+        "SpellDamage"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "3026",
+      "name": "Anjo Guardião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3026.png",
+      "tags": [
+        "Armor",
+        "Damage"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "4646",
+      "name": "Ápice da Tempestade",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4646.png",
+      "tags": [
+        "SpellDamage",
+        "GoldPer",
+        "NonbootsMovement",
+        "MagicPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3119",
+      "name": "Aproximação Invernal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3119.png",
+      "tags": [
+        "Health",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2400,
+      "category": "core"
+    },
+    {
+      "id": "323119",
+      "name": "Aproximação Invernal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323119.png",
+      "tags": [
+        "Health",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2400,
+      "category": "core"
+    },
+    {
+      "id": "1086",
+      "name": "Arco de Doran",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1086.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellVamp",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "6696",
+      "name": "Arco do Axioma",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6696.png",
+      "tags": [
+        "Damage",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2750,
+      "category": "core"
+    },
+    {
+      "id": "1043",
+      "name": "Arco Recurvo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1043.png",
+      "tags": [
+        "AttackSpeed",
+        "OnHit"
+      ],
+      "depth": 2,
+      "goldTotal": 700,
+      "category": "core"
+    },
+    {
+      "id": "6673",
+      "name": "Arco-escudo Imortal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6673.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3075",
+      "name": "Armadura de Espinhos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3075.png",
+      "tags": [
+        "Health",
+        "Armor"
+      ],
+      "depth": 3,
+      "goldTotal": 2450,
+      "category": "core"
+    },
+    {
+      "id": "323075",
+      "name": "Armadura de Espinhos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323075.png",
+      "tags": [
+        "Health",
+        "Armor"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "3083",
+      "name": "Armadura de Warmog",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3083.png",
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "2501",
+      "name": "Armadura Sangrenta do Suserano",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2501.png",
+      "tags": [
+        "Health",
+        "Damage"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "2420",
+      "name": "Armaguarda da Caçadora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2420.png",
+      "tags": [
+        "Armor",
+        "SpellDamage",
+        "Active"
+      ],
+      "depth": 2,
+      "goldTotal": 1600,
+      "category": "core"
+    },
+    {
+      "id": "2421",
+      "name": "Armaguarda Despedaçada",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2421.png",
+      "tags": [],
+      "depth": 2,
+      "goldTotal": 1600,
+      "category": "core"
+    },
+    {
+      "id": "3865",
+      "name": "Atlas Mundial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3865.png",
+      "tags": [
+        "Health",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "2522",
+      "name": "Atualizador",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2522.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "6621",
+      "name": "Auronúcleo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6621.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "326621",
+      "name": "Auronúcleo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326621.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "2510",
+      "name": "Aurora e Crepúsculo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2510.png",
+      "tags": [
+        "Health",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "3140",
+      "name": "Bandana de Mercúrio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3140.png",
+      "tags": [
+        "Active",
+        "SpellBlock"
+      ],
+      "depth": 2,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "2524",
+      "name": "Bandocanos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2524.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2300,
+      "category": "core"
+    },
+    {
+      "id": "4632",
+      "name": "Barreira Verdejante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4632.png",
+      "tags": [
+        "SpellBlock",
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 1600,
+      "category": "core"
+    },
+    {
+      "id": "6657",
+      "name": "Bastão das Eras",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6657.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "SpellDamage",
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "326657",
+      "name": "Bastão das Eras",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326657.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "SpellDamage",
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "1058",
+      "name": "Bastão Desnecessariamente Grande",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1058.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 1,
+      "goldTotal": 1200,
+      "category": "core"
+    },
+    {
+      "id": "3222",
+      "name": "Bênção de Mikael",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3222.png",
+      "tags": [
+        "Health",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2300,
+      "category": "core"
+    },
+    {
+      "id": "323222",
+      "name": "Bênção de Mikael",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323222.png",
+      "tags": [
+        "Health",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "2051",
+      "name": "Berrante do Guardião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2051.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 950,
+      "category": "core"
+    },
+    {
+      "id": "1001",
+      "name": "Botas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1001.png",
+      "tags": [
+        "Boots"
+      ],
+      "depth": 1,
+      "goldTotal": 300,
+      "category": "boots"
+    },
+    {
+      "id": "3009",
+      "name": "Botas da Rapidez",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3009.png",
+      "tags": [
+        "Boots"
+      ],
+      "depth": 2,
+      "goldTotal": 1000,
+      "category": "boots"
+    },
+    {
+      "id": "3047",
+      "name": "Botas Galvanizadas de Aço",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3047.png",
+      "tags": [
+        "Armor",
+        "Boots"
+      ],
+      "depth": 2,
+      "goldTotal": 1200,
+      "category": "boots"
+    },
+    {
+      "id": "3158",
+      "name": "Botas Ionianas da Lucidez",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3158.png",
+      "tags": [
+        "Boots",
+        "CooldownReduction"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "boots"
+    },
+    {
+      "id": "3801",
+      "name": "Braçadeira Cristalina",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3801.png",
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "6660",
+      "name": "Brasa de Bami",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6660.png",
+      "tags": [
+        "Health",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "3024",
+      "name": "Broquel Glacial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3024.png",
+      "tags": [
+        "Armor",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "1103",
+      "name": "Broto de Esmagamusgo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1103.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "starter"
+    },
+    {
+      "id": "1105",
+      "name": "Broto de Esmagamusgo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1105.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "core"
+    },
+    {
+      "id": "2020",
+      "name": "Brutalizador",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2020.png",
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "ArmorPenetration"
+      ],
+      "depth": 2,
+      "goldTotal": 1337,
+      "category": "core"
+    },
+    {
+      "id": "6616",
+      "name": "Cajado Aquafluxo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6616.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2250,
+      "category": "core"
+    },
+    {
+      "id": "326616",
+      "name": "Cajado Aquafluxo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326616.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "3003",
+      "name": "Cajado do Arcanjo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3003.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "323003",
+      "name": "Cajado do Arcanjo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323003.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "3135",
+      "name": "Cajado do Vazio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3135.png",
+      "tags": [
+        "MagicPenetration",
+        "SpellDamage"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3168",
+      "name": "Caminho Imortal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3168.png",
+      "tags": [
+        "LifeSteal",
+        "SpellVamp",
+        "Boots"
+      ],
+      "depth": 3,
+      "goldTotal": 1000,
+      "category": "boots"
+    },
+    {
+      "id": "3877",
+      "name": "Canção de Sangue",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3877.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 2,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "3094",
+      "name": "Canhão Fumegante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3094.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "1018",
+      "name": "Capa da Agilidade",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1018.png",
+      "tags": [
+        "CriticalStrike"
+      ],
+      "depth": 1,
+      "goldTotal": 600,
+      "category": "core"
+    },
+    {
+      "id": "1057",
+      "name": "Capa Negatron",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1057.png",
+      "tags": [
+        "SpellBlock"
+      ],
+      "depth": 2,
+      "goldTotal": 850,
+      "category": "core"
+    },
+    {
+      "id": "3802",
+      "name": "Capítulo Perdido",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3802.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 1200,
+      "category": "core"
+    },
+    {
+      "id": "3089",
+      "name": "Capuz da Morte de Rabadon",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3089.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 3500,
+      "category": "core"
+    },
+    {
+      "id": "3211",
+      "name": "Capuz do Espectro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3211.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "SpellBlock"
+      ],
+      "depth": 2,
+      "goldTotal": 1250,
+      "category": "core"
+    },
+    {
+      "id": "3082",
+      "name": "Carapaça do Vigia",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3082.png",
+      "tags": [
+        "Armor"
+      ],
+      "depth": 2,
+      "goldTotal": 1000,
+      "category": "core"
+    },
+    {
+      "id": "3803",
+      "name": "Catalisador das Eras",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3803.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 2,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "3116",
+      "name": "Cetro de Cristal de Rylai",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3116.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Slow"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "1053",
+      "name": "Cetro Vampírico",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1053.png",
+      "tags": [
+        "Damage",
+        "LifeSteal"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "6610",
+      "name": "Céu Dividido",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6610.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "4645",
+      "name": "Chama Sombria",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4645.png",
+      "tags": [
+        "SpellDamage",
+        "MagicPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "3123",
+      "name": "Chamado do Carrasco",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3123.png",
+      "tags": [
+        "Damage"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "3097",
+      "name": "Chuva de Canivete",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3097.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "6699",
+      "name": "Cicloespada Voltaica",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6699.png",
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3139",
+      "name": "Cimitarra Mercurial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3139.png",
+      "tags": [
+        "SpellBlock",
+        "Damage",
+        "LifeSteal",
+        "Active",
+        "NonbootsMovement",
+        "Tenacity"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "3113",
+      "name": "Cintilação Etérea",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3113.png",
+      "tags": [
+        "NonbootsMovement",
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "1011",
+      "name": "Cinto do Gigante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1011.png",
+      "tags": [
+        "Health"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "2508",
+      "name": "Cinzas do Destino",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2508.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "3108",
+      "name": "Códex Demoníaco",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3108.png",
+      "tags": [
+        "SpellDamage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 850,
+      "category": "core"
+    },
+    {
+      "id": "3076",
+      "name": "Colete Espinhoso",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3076.png",
+      "tags": [
+        "Armor"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "3508",
+      "name": "Colhedor de Essência",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3508.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ManaRegen",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3050,
+      "category": "core"
+    },
+    {
+      "id": "667112",
+      "name": "Comecarne",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667112.png",
+      "tags": [
+        "Damage",
+        "SpellDamage",
+        "MagicPenetration",
+        "ArmorPenetration"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3050",
+      "name": "Convergência de Zeke",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3050.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "323050",
+      "name": "Convergência de Zeke",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323050.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2300,
+      "category": "core"
+    },
+    {
+      "id": "3110",
+      "name": "Coração Congelado",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3110.png",
+      "tags": [
+        "Armor",
+        "Mana",
+        "Aura",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "323110",
+      "name": "Coração Congelado",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323110.png",
+      "tags": [
+        "Armor",
+        "Mana",
+        "Aura",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "3084",
+      "name": "Coração de Aço",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3084.png",
+      "tags": [
+        "Health",
+        "HealthRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "663056",
+      "name": "Coroa do Rei Demoníaco",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663056.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "Damage",
+        "AttackSpeed",
+        "SpellDamage",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "1031",
+      "name": "Cota de Malha",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1031.png",
+      "tags": [
+        "Armor"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "1029",
+      "name": "Couraça de Pano",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1029.png",
+      "tags": [
+        "Armor"
+      ],
+      "depth": 1,
+      "goldTotal": 300,
+      "category": "core"
+    },
+    {
+      "id": "3742",
+      "name": "Couraça do Defunto",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3742.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "Slow",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "3066",
+      "name": "Couraça Lunar Alada",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3066.png",
+      "tags": [
+        "Health",
+        "NonbootsMovement"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "2525",
+      "name": "Couraça Protoplasmática",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2525.png",
+      "tags": [
+        "Health",
+        "NonbootsMovement",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "1102",
+      "name": "Cria de Andabrisas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1102.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "starter"
+    },
+    {
+      "id": "1106",
+      "name": "Cria de Andabrisas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1106.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "core"
+    },
+    {
+      "id": "4633",
+      "name": "Criafendas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4633.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "SpellVamp"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "3870",
+      "name": "Criassonhos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3870.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 2,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "3137",
+      "name": "Criptoflora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3137.png",
+      "tags": [
+        "SpellDamage",
+        "MagicPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "1028",
+      "name": "Cristal de Rubi",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1028.png",
+      "tags": [
+        "Health"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "1027",
+      "name": "Cristal de Safira",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1027.png",
+      "tags": [
+        "Mana"
+      ],
+      "depth": 1,
+      "goldTotal": 300,
+      "category": "core"
+    },
+    {
+      "id": "667109",
+      "name": "Crueldade",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667109.png",
+      "tags": [
+        "Armor",
+        "SpellDamage",
+        "MagicResist"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3071",
+      "name": "Cutelo Negro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3071.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "OnHit",
+        "NonbootsMovement",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "6333",
+      "name": "Dança da Morte",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6333.png",
+      "tags": [
+        "Armor",
+        "Damage",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "3046",
+      "name": "Dançarina Fantasma",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3046.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "2512",
+      "name": "Dardos de Caça-Demônios",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2512.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "3115",
+      "name": "Dente de Na'Shor",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3115.png",
+      "tags": [
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "2502",
+      "name": "Desespero Eterno",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2502.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "6692",
+      "name": "Eclipse",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6692.png",
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "6655",
+      "name": "Eco de Luden",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6655.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2750,
+      "category": "core"
+    },
+    {
+      "id": "6620",
+      "name": "Ecos de Helia",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6620.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "326620",
+      "name": "Ecos de Helia",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326620.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "3068",
+      "name": "Égide de Fogo Solar",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3068.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "Aura",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "1120",
+      "name": "Elmo de Doran",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1120.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "core"
+    },
+    {
+      "id": "1054",
+      "name": "Escudo de Doran",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1054.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "starter"
+    },
+    {
+      "id": "663058",
+      "name": "Escudo de Rocha Fundida",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663058.png",
+      "tags": [
+        "Health",
+        "Armor"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3173",
+      "name": "Esmagadores Acorrentados",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3173.png",
+      "tags": [
+        "SpellBlock",
+        "Boots",
+        "Tenacity",
+        "MagicResist"
+      ],
+      "depth": 3,
+      "goldTotal": 1250,
+      "category": "boots"
+    },
+    {
+      "id": "664011",
+      "name": "Espada da Alvorada Florescente",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/664011.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3153",
+      "name": "Espada do Rei Destruído",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3153.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "LifeSteal",
+        "Slow",
+        "OnHit"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "1038",
+      "name": "Espada G. p. C.",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1038.png",
+      "tags": [
+        "Damage"
+      ],
+      "depth": 1,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "1036",
+      "name": "Espada Longa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1036.png",
+      "tags": [
+        "Damage",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 350,
+      "category": "core"
+    },
+    {
+      "id": "4642",
+      "name": "Espelho de Bandópolis",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4642.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "3144",
+      "name": "Estilingue do Patrulheiro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3144.png",
+      "tags": [
+        "AttackSpeed"
+      ],
+      "depth": 2,
+      "goldTotal": 600,
+      "category": "core"
+    },
+    {
+      "id": "3152",
+      "name": "Explocinturão Hextec",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3152.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Active",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "3087",
+      "name": "Faca de Statikk",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3087.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3044",
+      "name": "Fago",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3044.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "core"
+    },
+    {
+      "id": "1101",
+      "name": "Filhote de Garrabrasa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1101.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "starter"
+    },
+    {
+      "id": "1107",
+      "name": "Filhote de Garrabrasa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1107.png",
+      "tags": [
+        "Jungle"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "core"
+    },
+    {
+      "id": "3032",
+      "name": "Flechatroz de Yun Tal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3032.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "AttackSpeed"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "4628",
+      "name": "Foco do Horizonte",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4628.png",
+      "tags": [
+        "SpellDamage",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "2517",
+      "name": "Fome Eterna",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2517.png",
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "Tenacity",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "4401",
+      "name": "Força da Natureza",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4401.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3078",
+      "name": "Força da Trindade",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3078.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "CooldownReduction",
+        "OnHit",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3333,
+      "category": "core"
+    },
+    {
+      "id": "3057",
+      "name": "Fulgor",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3057.png",
+      "tags": [
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "3085",
+      "name": "Furacão de Runaan",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3085.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "3067",
+      "name": "Gema Ardente",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3067.png",
+      "tags": [
+        "Health",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "3179",
+      "name": "Glaive Sombria",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3179.png",
+      "tags": [
+        "Damage",
+        "Vision",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3172",
+      "name": "Grevas Bélicas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3172.png",
+      "tags": [
+        "AttackSpeed",
+        "LifeSteal",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 1100,
+      "category": "core"
+    },
+    {
+      "id": "3006",
+      "name": "Grevas do Berserker",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3006.png",
+      "tags": [
+        "AttackSpeed",
+        "Boots"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "boots"
+    },
+    {
+      "id": "3008",
+      "name": "Grevas Vorazes",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3008.png",
+      "tags": [
+        "LifeSteal",
+        "SpellVamp",
+        "Boots"
+      ],
+      "depth": 2,
+      "goldTotal": 1000,
+      "category": "boots"
+    },
+    {
+      "id": "3031",
+      "name": "Gume do Infinito",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3031.png",
+      "tags": [
+        "CriticalStrike",
+        "Damage"
+      ],
+      "depth": 2,
+      "goldTotal": 3500,
+      "category": "core"
+    },
+    {
+      "id": "3155",
+      "name": "Hexdrinker",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3155.png",
+      "tags": [
+        "Damage",
+        "SpellBlock"
+      ],
+      "depth": 2,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "3073",
+      "name": "Hexoplaca Experimental",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3073.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "2523",
+      "name": "Hexótica C44",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2523.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "6698",
+      "name": "Hidra Profana",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6698.png",
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2850,
+      "category": "core"
+    },
+    {
+      "id": "3074",
+      "name": "Hidra Raivosa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3074.png",
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "3748",
+      "name": "Hidra Titânica",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3748.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Damage",
+        "OnHit"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "2065",
+      "name": "Hino Bélico de Shurelya",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2065.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "322065",
+      "name": "Hino Bélico de Shurelya",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322065.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "Active",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "6697",
+      "name": "Húbris",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6697.png",
+      "tags": [
+        "Damage",
+        "Active",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3114",
+      "name": "Ídolo Proibido",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3114.png",
+      "tags": [
+        "ManaRegen"
+      ],
+      "depth": 2,
+      "goldTotal": 600,
+      "category": "core"
+    },
+    {
+      "id": "4629",
+      "name": "Ímpeto Cósmico",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4629.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3871",
+      "name": "Invadomínio de Zaz'Zak",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3871.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 2,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "6665",
+      "name": "Jak'Sho, o Inconstante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6665.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "MagicResist"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "4630",
+      "name": "Joia da Ruína",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4630.png",
+      "tags": [
+        "MagicPenetration",
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "core"
+    },
+    {
+      "id": "3109",
+      "name": "Juramento do Cavaleiro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3109.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Armor",
+        "Aura",
+        "Active",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2300,
+      "category": "core"
+    },
+    {
+      "id": "323109",
+      "name": "Juramento do Cavaleiro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323109.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "Armor",
+        "Aura",
+        "Active",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "1082",
+      "name": "Lacre Sombrio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1082.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 350,
+      "category": "starter"
+    },
+    {
+      "id": "3041",
+      "name": "Ladrão de Almas de Mejai",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3041.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "NonbootsMovement"
+      ],
+      "depth": 2,
+      "goldTotal": 1500,
+      "category": "core"
+    },
+    {
+      "id": "3070",
+      "name": "Lágrima da Deusa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3070.png",
+      "tags": [
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "323070",
+      "name": "Lágrima da Deusa",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323070.png",
+      "tags": [
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "3124",
+      "name": "Lâmina da Fúria de Guinsoo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3124.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "SpellDamage",
+        "OnHit"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "1055",
+      "name": "Lâmina de Doran",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1055.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 450,
+      "category": "starter"
+    },
+    {
+      "id": "667101",
+      "name": "Lâmina do Apostador",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/667101.png",
+      "tags": [
+        "Damage",
+        "NonbootsMovement",
+        "MagicPenetration",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3177",
+      "name": "Lâmina do Guardião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3177.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "Lane",
+        "AbilityHaste"
+      ],
+      "depth": 1,
+      "goldTotal": 950,
+      "category": "core"
+    },
+    {
+      "id": "3142",
+      "name": "Lâmina Fantasma de Youmuu",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3142.png",
+      "tags": [
+        "Damage",
+        "Active",
+        "NonbootsMovement",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3161",
+      "name": "Lança de Shojin",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3161.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "3036",
+      "name": "Lembranças do Lorde Dominik",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3036.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "3033",
+      "name": "Lembrete Mortal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3033.png",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3814",
+      "name": "Limiar da Noite",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3814.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3091",
+      "name": "Limite da Razão",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3091.png",
+      "tags": [
+        "SpellBlock",
+        "AttackSpeed",
+        "OnHit",
+        "Tenacity"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "3171",
+      "name": "Lucidez Escarlate",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3171.png",
+      "tags": [
+        "CooldownReduction",
+        "Boots"
+      ],
+      "depth": 3,
+      "goldTotal": 900,
+      "category": "boots"
+    },
+    {
+      "id": "3051",
+      "name": "Machado Termestre",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3051.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed"
+      ],
+      "depth": 2,
+      "goldTotal": 1200,
+      "category": "core"
+    },
+    {
+      "id": "8010",
+      "name": "Maldição Sanguinária",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8010.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "MagicPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "3118",
+      "name": "Malevolência",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3118.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "3004",
+      "name": "Manamune",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3004.png",
+      "tags": [
+        "Damage",
+        "Mana",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "323004",
+      "name": "Manamune",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323004.png",
+      "tags": [
+        "Damage",
+        "Mana",
+        "CooldownReduction",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "4005",
+      "name": "Mandato Imperial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/4005.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2400,
+      "category": "core"
+    },
+    {
+      "id": "324005",
+      "name": "Mandato Imperial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/324005.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2400,
+      "category": "core"
+    },
+    {
+      "id": "3156",
+      "name": "Mandíbula de Malmortius",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3156.png",
+      "tags": [
+        "SpellBlock",
+        "Damage",
+        "LifeSteal",
+        "SpellVamp",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3100,
+      "category": "core"
+    },
+    {
+      "id": "6662",
+      "name": "Manopla dos Glacinatas",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6662.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "CooldownReduction",
+        "Slow",
+        "OnHit",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "1033",
+      "name": "Manto Anula-Magia",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1033.png",
+      "tags": [
+        "SpellBlock"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "663059",
+      "name": "Manto da Noite Estrelada",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663059.png",
+      "tags": [
+        "Health",
+        "SpellBlock"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3170",
+      "name": "Marcha Célere",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3170.png",
+      "tags": [
+        "Boots"
+      ],
+      "depth": 3,
+      "goldTotal": 1000,
+      "category": "boots"
+    },
+    {
+      "id": "3133",
+      "name": "Martelo de Guerra de Caulfield",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3133.png",
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 2,
+      "goldTotal": 1050,
+      "category": "core"
+    },
+    {
+      "id": "3184",
+      "name": "Martelo do Guardião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3184.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "LifeSteal",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 950,
+      "category": "core"
+    },
+    {
+      "id": "8020",
+      "name": "Máscara Abissal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/8020.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "CooldownReduction",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2650,
+      "category": "core"
+    },
+    {
+      "id": "328020",
+      "name": "Máscara Abissal",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/328020.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "CooldownReduction",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2850,
+      "category": "core"
+    },
+    {
+      "id": "3147",
+      "name": "Máscara Assustadora",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3147.png",
+      "tags": [
+        "Health",
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 1300,
+      "category": "core"
+    },
+    {
+      "id": "6672",
+      "name": "Mata-Cráquens",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6672.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "OnHit",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3190",
+      "name": "Medalhão dos Solari de Ferro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3190.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "Aura",
+        "Active",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "323190",
+      "name": "Medalhão dos Solari de Ferro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323190.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "Armor",
+        "Aura",
+        "Active",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "3174",
+      "name": "Mobilização Blindada",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3174.png",
+      "tags": [
+        "Armor",
+        "Boots"
+      ],
+      "depth": 3,
+      "goldTotal": 1200,
+      "category": "boots"
+    },
+    {
+      "id": "3165",
+      "name": "Morellonomicon",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3165.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2850,
+      "category": "core"
+    },
+    {
+      "id": "3869",
+      "name": "Oposição Celestial",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3869.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 2,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "3112",
+      "name": "Orbe do Guardião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3112.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "Lane"
+      ],
+      "depth": 1,
+      "goldTotal": 950,
+      "category": "core"
+    },
+    {
+      "id": "3916",
+      "name": "Orbe do Oblívio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3916.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 2,
+      "goldTotal": 800,
+      "category": "core"
+    },
+    {
+      "id": "2022",
+      "name": "Partícula Brilhante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2022.png",
+      "tags": [
+        "CooldownReduction"
+      ],
+      "depth": 1,
+      "goldTotal": 250,
+      "category": "core"
+    },
+    {
+      "id": "3111",
+      "name": "Passos de Mercúrio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3111.png",
+      "tags": [
+        "Boots",
+        "SpellBlock",
+        "Tenacity"
+      ],
+      "depth": 2,
+      "goldTotal": 1250,
+      "category": "boots"
+    },
+    {
+      "id": "3100",
+      "name": "Perdição de Lich",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3100.png",
+      "tags": [
+        "SpellDamage",
+        "OnHit",
+        "NonbootsMovement",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "1006",
+      "name": "Pérola do Rejuvenescimento",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1006.png",
+      "tags": [
+        "HealthRegen"
+      ],
+      "depth": 1,
+      "goldTotal": 300,
+      "category": "core"
+    },
+    {
+      "id": "1037",
+      "name": "Picareta",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1037.png",
+      "tags": [
+        "Damage"
+      ],
+      "depth": 1,
+      "goldTotal": 875,
+      "category": "core"
+    },
+    {
+      "id": "3146",
+      "name": "Pistola Laminar Hextec",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3146.png",
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "SpellDamage",
+        "Active",
+        "SpellVamp"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "663146",
+      "name": "Pistola Laminar Hextec",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663146.png",
+      "tags": [
+        "Damage",
+        "LifeSteal",
+        "SpellDamage",
+        "Active",
+        "SpellVamp"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "663193",
+      "name": "Placa Gargolítica",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663193.png",
+      "tags": [
+        "SpellBlock",
+        "Armor",
+        "Active",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 1,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "6695",
+      "name": "Presa da Serpente",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6695.png",
+      "tags": [
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 2500,
+      "category": "core"
+    },
+    {
+      "id": "3143",
+      "name": "Presságio de Randuin",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3143.png",
+      "tags": [
+        "Health",
+        "Armor",
+        "Active",
+        "Slow"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "3134",
+      "name": "Punhal Serrilhado",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3134.png",
+      "tags": [
+        "Damage",
+        "ArmorPenetration"
+      ],
+      "depth": 2,
+      "goldTotal": 1000,
+      "category": "core"
+    },
+    {
+      "id": "2520",
+      "name": "Quebra-Bastião",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2520.png",
+      "tags": [
+        "Damage",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "3181",
+      "name": "Quebracascos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3181.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "6631",
+      "name": "Quebrapassos",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6631.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "AttackSpeed",
+        "Slow"
+      ],
+      "depth": 3,
+      "goldTotal": 3300,
+      "category": "core"
+    },
+    {
+      "id": "6694",
+      "name": "Rancor de Serylda",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6694.png",
+      "tags": [
+        "Damage",
+        "CooldownReduction",
+        "ArmorPenetration",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3107",
+      "name": "Redenção",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3107.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2300,
+      "category": "core"
+    },
+    {
+      "id": "323107",
+      "name": "Redenção",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323107.png",
+      "tags": [
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "6617",
+      "name": "Regenerador de Pedra Lunar",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6617.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "326617",
+      "name": "Regenerador de Pedra Lunar",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/326617.png",
+      "tags": [
+        "Health",
+        "SpellDamage",
+        "ManaRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "6664",
+      "name": "Resplendor Vazio",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6664.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen",
+        "Aura",
+        "MagicResist",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "6690",
+      "name": "Retriz",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6690.png",
+      "tags": [
+        "Damage",
+        "NonbootsMovement"
+      ],
+      "depth": 2,
+      "goldTotal": 775,
+      "category": "core"
+    },
+    {
+      "id": "2504",
+      "name": "Rookern Lamúrico",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2504.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2900,
+      "category": "core"
+    },
+    {
+      "id": "3020",
+      "name": "Sapatos do Feiticeiro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3020.png",
+      "tags": [
+        "Boots",
+        "MagicPenetration"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "boots"
+    },
+    {
+      "id": "3175",
+      "name": "Sapatos Enfeitiçados",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3175.png",
+      "tags": [
+        "Boots",
+        "MagicPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 1100,
+      "category": "boots"
+    },
+    {
+      "id": "3072",
+      "name": "Sedenta por Sangue",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3072.png",
+      "tags": [
+        "Damage",
+        "LifeSteal"
+      ],
+      "depth": 3,
+      "goldTotal": 3400,
+      "category": "core"
+    },
+    {
+      "id": "3065",
+      "name": "Semblante Espiritual",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3065.png",
+      "tags": [
+        "Health",
+        "SpellBlock",
+        "HealthRegen",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2700,
+      "category": "core"
+    },
+    {
+      "id": "6609",
+      "name": "Serrespada Quimiopunk",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6609.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "2019",
+      "name": "Sigilo de Aço",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2019.png",
+      "tags": [
+        "Armor",
+        "Damage"
+      ],
+      "depth": 2,
+      "goldTotal": 1100,
+      "category": "core"
+    },
+    {
+      "id": "3053",
+      "name": "Sinal de Sterak",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3053.png",
+      "tags": [
+        "Health",
+        "Damage",
+        "Tenacity"
+      ],
+      "depth": 3,
+      "goldTotal": 3200,
+      "category": "core"
+    },
+    {
+      "id": "663064",
+      "name": "Talismã da Ascensão de Veigar",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/663064.png",
+      "tags": [],
+      "depth": 1,
+      "goldTotal": 900,
+      "category": "core"
+    },
+    {
+      "id": "3302",
+      "name": "Terminus",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3302.png",
+      "tags": [
+        "Damage",
+        "AttackSpeed",
+        "OnHit",
+        "MagicPenetration",
+        "ArmorPenetration"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3077",
+      "name": "Tiamat",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3077.png",
+      "tags": [
+        "Damage",
+        "OnHit"
+      ],
+      "depth": 2,
+      "goldTotal": 1200,
+      "category": "core"
+    },
+    {
+      "id": "2526",
+      "name": "Tiara Sussurrante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2526.png",
+      "tags": [
+        "Health",
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2250,
+      "category": "core"
+    },
+    {
+      "id": "322526",
+      "name": "Tiara Sussurrante",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/322526.png",
+      "tags": [
+        "Health",
+        "Mana",
+        "ManaRegen"
+      ],
+      "depth": 3,
+      "goldTotal": 2250,
+      "category": "core"
+    },
+    {
+      "id": "2503",
+      "name": "Tocha de Chamas Negras",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2503.png",
+      "tags": [
+        "SpellDamage",
+        "Mana",
+        "CooldownReduction",
+        "AbilityHaste"
+      ],
+      "depth": 3,
+      "goldTotal": 2800,
+      "category": "core"
+    },
+    {
+      "id": "1052",
+      "name": "Tomo Amplificador",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1052.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 1,
+      "goldTotal": 400,
+      "category": "core"
+    },
+    {
+      "id": "6653",
+      "name": "Tormento de Liandry",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/6653.png",
+      "tags": [
+        "Health",
+        "SpellDamage"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3876",
+      "name": "Trenó do Solstício",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3876.png",
+      "tags": [
+        "Health",
+        "HealthRegen",
+        "ManaRegen",
+        "Vision",
+        "GoldPer",
+        "Lane"
+      ],
+      "depth": 2,
+      "goldTotal": 400,
+      "category": "starter"
+    },
+    {
+      "id": "2021",
+      "name": "Tunelizador",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/2021.png",
+      "tags": [
+        "Health",
+        "Damage"
+      ],
+      "depth": 2,
+      "goldTotal": 1150,
+      "category": "core"
+    },
+    {
+      "id": "3504",
+      "name": "Turíbulo Ardente",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3504.png",
+      "tags": [
+        "AttackSpeed",
+        "SpellDamage",
+        "ManaRegen",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2200,
+      "category": "core"
+    },
+    {
+      "id": "323504",
+      "name": "Turíbulo Ardente",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/323504.png",
+      "tags": [
+        "AttackSpeed",
+        "SpellDamage",
+        "ManaRegen",
+        "NonbootsMovement"
+      ],
+      "depth": 3,
+      "goldTotal": 2600,
+      "category": "core"
+    },
+    {
+      "id": "3035",
+      "name": "Último Sussurro",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3035.png",
+      "tags": [
+        "ArmorPenetration",
+        "Damage"
+      ],
+      "depth": 2,
+      "goldTotal": 1450,
+      "category": "core"
+    },
+    {
+      "id": "1026",
+      "name": "Varinha Explosiva",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/1026.png",
+      "tags": [
+        "SpellDamage"
+      ],
+      "depth": 1,
+      "goldTotal": 850,
+      "category": "core"
+    },
+    {
+      "id": "3102",
+      "name": "Véu da Banshee",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3102.png",
+      "tags": [
+        "SpellBlock",
+        "SpellDamage"
+      ],
+      "depth": 3,
+      "goldTotal": 3000,
+      "category": "core"
+    },
+    {
+      "id": "3086",
+      "name": "Zelo",
+      "iconUrl": "https://ddragon.leagueoflegends.com/cdn/16.13.1/img/item/3086.png",
+      "tags": [
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement"
+      ],
+      "depth": 2,
+      "goldTotal": 1200,
+      "category": "core"
+    }
+  ]
+}

@@ -1,17 +1,22 @@
+import catalog from "../../data/catalog.json";
+
 export type Role = "Top" | "Jungle" | "Mid" | "ADC" | "Support";
 
 type Champion = {
   id: string;
   dataDragonId: string;
   name: string;
-  roles: Role[];
 };
 
-type Item = {
+type CatalogItem = {
   id: string;
   name: string;
-  slot: string;
   iconUrl: string;
+  category: "starter" | "boots" | "core";
+};
+
+type Item = CatalogItem & {
+  slot: string;
 };
 
 type SummonerSpell = {
@@ -47,7 +52,7 @@ export type RollOptions = {
   ban: boolean;
 };
 
-export const DATA_DRAGON_VERSION = "16.13.1";
+export const DATA_DRAGON_VERSION = catalog.version;
 
 export const defaultRollOptions: RollOptions = {
   champion: true,
@@ -59,29 +64,10 @@ export const defaultRollOptions: RollOptions = {
 };
 
 const roles: Role[] = ["Top", "Jungle", "Mid", "ADC", "Support"];
+const jungleStarterIds = new Set(["1101", "1102", "1103"]);
+const coreItemSlots = ["1st", "2nd", "3rd", "4th"];
 
-const champions: Champion[] = [
-  { id: "aatrox", dataDragonId: "Aatrox", name: "Aatrox", roles: ["Top"] },
-  { id: "ahri", dataDragonId: "Ahri", name: "Ahri", roles: ["Mid"] },
-  { id: "ashe", dataDragonId: "Ashe", name: "Ashe", roles: ["ADC", "Support"] },
-  {
-    id: "ezreal",
-    dataDragonId: "Ezreal",
-    name: "Ezreal",
-    roles: ["ADC", "Mid"]
-  },
-  { id: "garen", dataDragonId: "Garen", name: "Garen", roles: ["Top"] },
-  { id: "jinx", dataDragonId: "Jinx", name: "Jinx", roles: ["ADC"] },
-  {
-    id: "lee-sin",
-    dataDragonId: "LeeSin",
-    name: "Lee Sin",
-    roles: ["Jungle"]
-  },
-  { id: "leona", dataDragonId: "Leona", name: "Leona", roles: ["Support"] },
-  { id: "lux", dataDragonId: "Lux", name: "Lux", roles: ["Support", "Mid"] },
-  { id: "yasuo", dataDragonId: "Yasuo", name: "Yasuo", roles: ["Mid", "Top"] }
-];
+const champions = catalog.champions as Champion[];
 
 const summonerSpells: SummonerSpell[] = [
   { id: "flash", name: "Flash", iconUrl: spellIcon("SummonerFlash") },
@@ -95,25 +81,7 @@ const summonerSpells: SummonerSpell[] = [
   { id: "smite", name: "Smite", iconUrl: spellIcon("SummonerSmite") }
 ];
 
-const itemPool: Item[] = [
-  item("1055", "Doran's Blade", "Start"),
-  item("1056", "Doran's Ring", "Start"),
-  item("1101", "Scorchclaw Pup", "Start"),
-  item("1102", "Gustwalker Hatchling", "Start"),
-  item("1103", "Mosstomper Seedling", "Start"),
-  item("3006", "Berserker's Greaves", "Boots"),
-  item("3047", "Plated Steelcaps", "Boots"),
-  item("3020", "Sorcerer's Shoes", "Boots"),
-  item("3153", "Blade of the Ruined King", "1st"),
-  item("6672", "Kraken Slayer", "1st"),
-  item("3089", "Rabadon's Deathcap", "1st"),
-  item("4645", "Shadowflame", "2nd"),
-  item("6692", "Eclipse", "2nd"),
-  item("3068", "Sunfire Aegis", "2nd"),
-  item("3072", "Bloodthirster", "3rd"),
-  item("3135", "Void Staff", "3rd"),
-  item("3119", "Winter's Approach", "3rd")
-];
+const itemPool = catalog.items as CatalogItem[];
 
 const skillOrders: Challenge["skillOrder"][] = [
   ["Q", "W", "E"],
@@ -130,15 +98,6 @@ export function championIcon(champion: Champion) {
 
 export function championSplash(champion: Champion) {
   return `https://ddragon.leagueoflegends.com/cdn/img/champion/splash/${champion.dataDragonId}_0.jpg`;
-}
-
-function item(id: string, name: string, slot: string): Item {
-  return {
-    id,
-    name,
-    slot,
-    iconUrl: `https://ddragon.leagueoflegends.com/cdn/${DATA_DRAGON_VERSION}/img/item/${id}.png`
-  };
 }
 
 function spellIcon(id: string) {
@@ -171,6 +130,13 @@ function pickUnused<T extends { id: string }>(
   usedIds.add(selectedItem.id);
 
   return selectedItem;
+}
+
+function withSlot(item: CatalogItem, slot: string): Item {
+  return {
+    ...item,
+    slot
+  };
 }
 
 function resolveRole(hash: number, previous?: Challenge, options = defaultRollOptions) {
@@ -237,29 +203,21 @@ function resolveItems(
 
   const starterPool =
     role === "Jungle"
-      ? itemPool.filter(
-          (item) => item.id === "1101" || item.id === "1102" || item.id === "1103"
-        )
+      ? itemPool.filter((item) => jungleStarterIds.has(item.id))
       : itemPool.filter(
           (item) =>
-            item.slot === "Start" &&
-            !item.name.includes("Hatchling") &&
-            !item.name.includes("Seedling") &&
-            !item.name.includes("Pup")
+            item.category === "starter" && !jungleStarterIds.has(item.id)
         );
-  const bootsPool = itemPool.filter((item) => item.slot === "Boots");
-  const corePool = itemPool.filter(
-    (item) => item.slot !== "Start" && item.slot !== "Boots"
-  );
+  const bootsPool = itemPool.filter((item) => item.category === "boots");
+  const corePool = itemPool.filter((item) => item.category === "core");
   const usedItemIds = new Set<string>();
 
   return [
-    pickUnused(starterPool, hash >>> 9, usedItemIds),
-    pickUnused(bootsPool, hash >>> 11, usedItemIds),
-    pickUnused(corePool, hash >>> 13, usedItemIds),
-    pickUnused(corePool, hash >>> 15, usedItemIds),
-    pickUnused(corePool, hash >>> 17, usedItemIds),
-    pickUnused(corePool, hash >>> 19, usedItemIds)
+    withSlot(pickUnused(starterPool, hash >>> 9, usedItemIds), "Start"),
+    withSlot(pickUnused(bootsPool, hash >>> 11, usedItemIds), "Boots"),
+    ...coreItemSlots.map((slot, index) =>
+      withSlot(pickUnused(corePool, hash >>> (13 + index * 2), usedItemIds), slot)
+    )
   ];
 }
 
@@ -315,6 +273,6 @@ export function randomChallenge(
     items,
     skillOrder,
     banChampion,
-    difficulty: role === champion.roles[0] ? 1 : 2
+    difficulty: 1
   };
 }

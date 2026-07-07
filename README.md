@@ -49,12 +49,15 @@ http://localhost:5173/lol-randomizer/
 npm run dev
 npm run test
 npm run build
+npm run dataset
 npm run preview
 ```
 
 - `npm run dev`: inicia o app em modo desenvolvimento.
 - `npm run test`: roda os testes unitarios com Vitest.
 - `npm run build`: valida TypeScript e gera a build em `dist/`.
+- `npm run dataset`: atualiza `src/data/catalog.json` com campeoes e itens do
+  patch atual do Data Dragon.
 - `npm run preview`: serve a build localmente.
 
 ## GitHub Pages
@@ -87,6 +90,9 @@ Depois disso, pushes na branch `main` disparam o workflow de deploy.
 
 As imagens de campeoes, itens e summoner spells são consumidas diretamente do
 CDN oficial Data Dragon em tempo de uso. Elas não são versionadas no repositorio.
+
+O catalogo local em `src/data/catalog.json` guarda apenas metadados necessarios
+para o roll, como nomes, ids, categorias e URLs do CDN.
 
 ## Aviso Legal
 

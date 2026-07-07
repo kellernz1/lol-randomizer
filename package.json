@@ -8,6 +8,7 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "test": "vitest run",
+    "dataset": "node scripts/update-data.mjs",
     "typecheck": "tsc -b"
   },
   "dependencies": {
